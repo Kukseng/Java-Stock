@@ -202,12 +202,13 @@ public class Stock {
                             }
                         }
 
-                        input.nextLine();
-                        System.out.println("Press Enter to continue...");
-                        input.nextLine();
+
 
 
                     }
+                    input.nextLine();
+                    System.out.println("Press Enter to continue...");
+                    input.nextLine();
                 }
 
 
@@ -236,10 +237,11 @@ public class Stock {
                             System.out.println("[*] Product '" + deleteName + "' not found.");
                         }
 
-                        input.nextLine();
-                        System.out.println("Press Enter to continue...");
-                        input.nextLine();
+
                     }
+                    input.nextLine();
+                    System.out.println("Press Enter to continue...");
+                    input.nextLine();
                 }
 
                 case 6 -> {
